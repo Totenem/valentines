@@ -7,13 +7,14 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: #ffe6e6; /* Light pink background */
 }
 
-div {
+.container {
     text-align: center;
     background: white;
     padding: 30px;
@@ -57,4 +58,15 @@ button:last-of-type {
 
 button:hover {
     opacity: 0.8;
+}
+
+/* Footer Styling */
+footer {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff1493;
 }
