@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffe6e6; /* Light pink background */
+}
+
+div {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ff1493; /* Deep pink */
+    margin-bottom: 20px;
+}
+
+img {
+    width: 200px; /* Adjust size as needed */
+    display: block;
+    margin: 0 auto 20px;
+}
+
+button {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+}
+
+button:first-of-type {
+    background-color: #28a745; 
+}
+
+button:last-of-type {
+    background-color: #dc3545;
+}
+
+button:hover {
+    opacity: 0.8;
+}
